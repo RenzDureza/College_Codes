@@ -2,6 +2,7 @@
 #include <iostream>
 #include <regex>
 #include <sstream>
+using namespace std;
 
 int main() {
   vector<pair<regex, string>> patterns = {
