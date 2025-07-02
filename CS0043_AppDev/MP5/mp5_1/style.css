@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ padding-top: 100px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 315px;
+}
+
+label input[type="date"] {
+  width: 187px;
+}
+
+.display_info {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.display_info table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.display_info td {
+  padding: 6px 10px;
+  vertical-align: top;
+}
+
+.display_info td:first-child {
+  white-space: nowrap;
+  text-align: left;
+  width: 140px;
+}

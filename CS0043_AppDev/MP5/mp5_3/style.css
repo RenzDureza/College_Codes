@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 315px;
+}
+
+table.fav_col {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.fav_col,
+table.fav_col th,
+table.fav_col td {
+  border: 1px solid #000;
+}
+
+table.fav_col th,
+table.fav_col td {
+  padding: 10px;
+  text-align: center;
+}
+
+.color-box {
+  width: 50px;
+  height: 20px;
+  display: inline-block;
+  border: 1px solid #000;
+}
