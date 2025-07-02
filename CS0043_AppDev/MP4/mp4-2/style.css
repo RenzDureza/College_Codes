@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 8px;
+
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+  padding: 10px;
+  color: white;
+  background-color: black;
+}
